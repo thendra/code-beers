@@ -76,14 +76,15 @@ export default {
     display: flex;
     align-items: center;
   }
+
   h1 {
     font-weight: bold;
-  width: 100px;
-  height: 100px;
-  animation-name: spin;
-  animation-duration: 5000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; 
+    width: 300px;
+    height: 100px;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
   }
 
 @keyframes spin {
