@@ -79,6 +79,7 @@ export default {
 
   h1 {
     font-weight: bold;
+    background: aqua;
     width: 300px;
     height: 100px;
     animation-name: spin;
